@@ -1,8 +1,8 @@
 # TeamA-4 
 ## :raising_hand:**成員**
-- <font color=#FF00FF>蕭力慈 (M11203602)</font>
-- <font color=#FF00FF>陳韋硯 (M11203603)</font>
-- <font color=#FF00FF>胡珍姮 (M11203606)</font>
+- **蕭力慈** (M11203602)
+- **陳韋硯** (M11203603)
+- **胡珍姮** (M11203606)
 
 ## **Task 3：任意堆疊 + I/O整合各項任務**
 ### :dart:目標
@@ -26,7 +26,7 @@ x建
 - [x] 平台偏移後經 Local 校正後還是能完成任務
 - [x] 利用標頭檔整合 Reference ，增加程式彈性
 #### 圖1 I/O box 按鈕配置圖 
-![螢幕擷取畫面 2023-12-17 151614](https://hackmd.io/_uploads/HkSLeQnLa.png)
+![螢幕擷取畫面 2023-12-17 211325](https://hackmd.io/_uploads/HJjWVu2Lp.png)
 
 #### 圖2 cad檔截圖
 ![螢幕擷取畫面 2023-12-17 205447](https://hackmd.io/_uploads/HyPok_28p.png)
