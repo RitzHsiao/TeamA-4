@@ -1,49 +1,54 @@
-# TeamA-4 
 ## :raising_hand:**成員**
-- **蕭力慈** (M11203602)
-- **陳韋硯** (M11203603)
-- **胡珍姮** (M11203606)
+- 蕭力慈 (M11203602)
+- 陳韋硯 (M11203603)
+- 胡珍姮 (M11203606)
 
 ## **Task 3：任意堆疊 + I/O整合各項任務**
-### :dart:目標
-使用I/O box操控所有任務，且利用記憶體記憶使用者選擇推疊順序，將其
-利用x建選擇執行和項任務， 任務3中，利用x鍵指定堆高任務中的某一層，再利用x鍵指定該層的工件種類，並於 memory I/O 區塊顯示 按下x鍵後依序堆疊完成目標 完成堆疊目標後，再次按下x鍵可將堆好的工件放回feeder
-
-### :heavy_check_mark:**我們達到的**
-- [x] 利用 I/O box (三健)選擇並執行哪一個任務 (如圖x所示)
-x建
-x建
-- [x] 用 I/O box (兩健) 決定
-- [x] 利用 memory I/O 記憶
-- [x] 利用 memory I/O 顯示取代 GUI
-- [x] 可彈性變更堆疊數量 (容許範圍內)
-- [x] 利用自設計雷射切割板固定工件
-    - 於切割版上標記教導點，定位更精準
-    - 便利定義 Local 的相對偏移
-- [x] 根據教導的3點 Local 自動校正
-    - 非使用 Robot Manager 內建功能
-    - 解決內建的 Local 功能不可記憶的問題
-- [x] 平台偏移後經 Local 校正後還是能完成任務
-- [x] 利用標頭檔整合 Reference ，增加程式彈性
-#### 圖1 I/O box 按鈕配置圖 
+### :dart:任務目標
+- 使用按鈕選擇開始任務
+- 再次按下按鈕自動整理工件
+- 利用藍鍵、白鍵選擇疊疊樂的堆放順序
+### :memo:操作說明
+#### 程式流程圖
+![teama4.drawio](https://hackmd.io/_uploads/H1QC5dnIT.png)
+#### 按鈕圖
 ![螢幕擷取畫面 2023-12-17 211325](https://hackmd.io/_uploads/HJjWVu2Lp.png)
 
-#### 圖2 cad檔截圖
+- 按下紅鍵開始 task1，任務完成後再次按下自動整理工件
+- 按下橘鍵開始 task2，任務完成後再次按下自動整理工件
+- 按下綠鍵進入 task3，此時按下藍鍵可選擇層數，按下白鍵選擇該層是BLOCK/TOKEN ，再次按下綠鍵開始作動
+#### 補充說明 : 
+- 層數顯示於 Memery I/O 第7字組
+- 選擇結果於 Memery I/O 該字組顯示 ， 0 代表 TOKEN 、1 代表 BLOCK
+
+以下為 Memery I/O 與實際堆疊之對照示意圖
+![Memory IO Example 1](https://hackmd.io/_uploads/SJ9Esd28a.png)
+![Memory IO Example 2](https://hackmd.io/_uploads/HJdrjuhIa.png)
+
+
+### :hammer:自製制具
+#### 底板
 ![螢幕擷取畫面 2023-12-17 205447](https://hackmd.io/_uploads/HyPok_28p.png)
-
-### **運行流程圖**
-
-
-圖3 總流程圖 圖4 工件順序選擇流程
-
-
-### :broken_heart:遺珠之憾
-#### 氣壓缸治具
+#### 氣壓缸
 ![螢幕擷取畫面 2023-12-17 212204](https://hackmd.io/_uploads/S1q-L_hL6.png)
-#### 程式小巧思
-#### 程式命名規範
+
+
+### :heavy_check_mark:**加分小亮點**
+- [x] 利用 I/O box 選擇任務開始
+- [x] 利用 I/O box 自動整理工件
+- [x] 利用 I/O box 選擇疊疊樂順序
+- [x] 利用 Memory I/O 顯示取代 GUI
+- [x] 利用自製雷射切割板固定工件
+    - 標記教導點，定位更精準
+    - 便利定義 Local 的相對偏移
+- [x] 根據教導的 3 點自動校正 Local 
+    - 非使用 Robot Manager 內建功能
+    - 解決內建的 Local 教導功能不可記憶的問題
+- [x] 平台位移後經校正還是能完成任務
+- [x] 利用標頭檔整合 Reference ，增加程式彈性
+- [x] 將所有任務整合在同一程式，增加完整度
 
 
 ### :movie_camera:**Simulation Video**
-
 ![task 3 simulation video](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExdnd5MzBmYzdqb2ZsY2JxZTByOXc4NzJiZjYyYTR3eDRodmR1ZWRteCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/7UUdJhtRUw5uCS5PmB/giphy.gif)
+
