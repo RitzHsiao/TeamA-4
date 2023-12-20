@@ -8,29 +8,33 @@
 - 使用按鈕選擇開始任務 (task1、task2、task3)
 - 再次按下按鈕自動整理工件
 - 利用藍鍵、白鍵選擇疊疊樂的堆放順序
+
+### 🎞️DEMO
+[![Task3講解](https://i.ytimg.com/vi/dlK4nZvKD78/maxresdefault.jpg)](https://youtu.be/dlK4nZvKD78 "Task3講解")
+
 ### :memo:操作說明
 #### 程式流程圖
-![teama4.drawio](https://hackmd.io/_uploads/H1QC5dnIT.png)
+> ![teama4.drawio](https://hackmd.io/_uploads/H1QC5dnIT.png)
 #### 按鈕圖
-![螢幕擷取畫面 2023-12-17 211325](https://hackmd.io/_uploads/HJjWVu2Lp.png)
+> ![螢幕擷取畫面 2023-12-17 211325](https://hackmd.io/_uploads/HJjWVu2Lp.png)
 
-- 按下紅鍵開始 task1，任務完成後再次按下自動整理工件
-- 按下橘鍵開始 task2，任務完成後再次按下自動整理工件
-- 按下綠鍵進入 task3，此時按下藍鍵可選擇層數，按下白鍵選擇該層是BLOCK/TOKEN ，再次按下綠鍵開始作動
-#### 補充說明 : 
-- 層數顯示於 Memery I/O 第7字組
-- 選擇結果於 Memery I/O 該字組顯示 ， 0 代表 TOKEN 、1 代表 BLOCK
-
-以下為 Memery I/O 與實際堆疊之對照示意圖
+- 按下**紅鍵**開始 ++task1++，任務完成後再次按下自動整理工件（由tray移動至feeder）
+- 按下**橘鍵**開始 ++task2++，任務完成後再次按下自動整理工件
+- 按下**綠鍵**進入 ++task3++，此時按下**藍鍵**可選擇層數，按下**白鍵**選擇該層是BLOCK/TOKEN ，再次按下**綠鍵**開始作動
+> #### 補充說明 : 
+> 1. 層數顯示於 Memery I/O **第7字組**
+> 2. 選擇結果於 Memery I/O 該字組顯示 ， 0 代表 TOKEN 、1 代表 BLOCK
+> 以下為 Memery I/O 與實際堆疊之對照示意圖
 ![Memory IO Example 1](https://hackmd.io/_uploads/SJ9Esd28a.png)
 ![Memory IO Example 2](https://hackmd.io/_uploads/HJdrjuhIa.png)
 
 
 ### :hammer:自製制具
 #### 底板
-![螢幕擷取畫面 2023-12-17 205447](https://hackmd.io/_uploads/HyPok_28p.png)
+> ![2023-12-18_131913](https://hackmd.io/_uploads/HJ6FILT86.jpg)
+
 #### 氣壓缸
-![螢幕擷取畫面 2023-12-17 212204](https://hackmd.io/_uploads/S1q-L_hL6.png)
+> ![螢幕擷取畫面 2023-12-17 212204](https://hackmd.io/_uploads/S1q-L_hL6.png)
 
 
 ### :heavy_check_mark:**加分小亮點**
@@ -50,5 +54,4 @@
 
 
 ### :movie_camera:**Simulation Video**
-![task 3 simulation video](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExdnd5MzBmYzdqb2ZsY2JxZTByOXc4NzJiZjYyYTR3eDRodmR1ZWRteCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/7UUdJhtRUw5uCS5PmB/giphy.gif)
-
+> ![task 3 simulation video](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExdnd5MzBmYzdqb2ZsY2JxZTByOXc4NzJiZjYyYTR3eDRodmR1ZWRteCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/7UUdJhtRUw5uCS5PmB/giphy.gif)
