@@ -21,12 +21,15 @@
 - 按下**紅鍵**開始 ++task1++，任務完成後再次按下自動整理工件（由tray移動至feeder）
 - 按下**橘鍵**開始 ++task2++，任務完成後再次按下自動整理工件
 - 按下**綠鍵**進入 ++task3++，此時按下**藍鍵**可選擇層數，按下**白鍵**選擇該層是BLOCK/TOKEN ，再次按下**綠鍵**開始作動
-> #### 補充說明 : 
-> 1. 層數顯示於 Memery I/O **第7字組**
-> 2. 選擇結果於 Memery I/O 該字組顯示 ， 0 代表 TOKEN 、1 代表 BLOCK
-> 以下為 Memery I/O 與實際堆疊之對照示意圖
+<details>
+    <summary>補充說明</summary> 
+    
+1. 層數顯示於 Memery I/O **第7字組**
+2. 選擇結果於 Memery I/O 該字組顯示 ， 0 代表 TOKEN 、1 代表 BLOCK
+以下為 Memery I/O 與實際堆疊之對照示意圖
 ![Memory IO Example 1](https://hackmd.io/_uploads/SJ9Esd28a.png)
 ![Memory IO Example 2](https://hackmd.io/_uploads/HJdrjuhIa.png)
+</details>
 
 
 ### :hammer:自製制具
